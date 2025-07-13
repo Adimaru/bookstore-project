@@ -38,7 +38,9 @@ Follow these steps to get the application up and running on your local machine.
 First, clone the project repository to your local machine:
 
 git clone <repository_url>
-cd bookstore-project # Assuming your cloned repo creates this root folder
+
+cd bookstore-project 
+# Assuming your cloned repo creates this root folder
 The project should now contain two main directories: bookstore-backend and bookstore-frontend.
 
 ## 2. Backend Setup (Spring Boot)
@@ -59,6 +61,7 @@ Once the build is successful, you can run the Spring Boot application:
 Bash
 
 mvn spring-boot:run
+
 The backend server will start, typically on port 8080. You should see logs indicating that the application has started and the H2 database is available.
 
 Default Data: On startup, the application will:
@@ -82,7 +85,9 @@ Open a new terminal window and navigate into the bookstore-frontend directory.
 
 Bash
 
-cd ../bookstore-frontend # If you are still in bookstore-backend, otherwise adjust path
+cd ../bookstore-frontend 
+
+# If you are still in bookstore-backend, otherwise adjust path
 ### 3.1. Install Dependencies
 Install the Node.js dependencies for the React application:
 
@@ -103,6 +108,7 @@ Start the React development server:
 Bash
 
 npm run dev
+
 The frontend application will start, typically on port 5173 (or another available port). The terminal will usually provide the URL (e.g., http://localhost:5173/).
 
 Usage
