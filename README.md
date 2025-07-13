@@ -1,6 +1,6 @@
 # Bookstore Project
 
-This project is a full-stack online bookstore application. It features a React-based frontend for user interaction and a Spring Boot backend providing a RESTful API for managing books, user authentication, and shopping cart functionalities.
+https://graceful-cucurucho-63ef2d.netlify.app => cloud version
 
 ## Features
 
