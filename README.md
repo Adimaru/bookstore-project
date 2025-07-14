@@ -2,6 +2,9 @@
 
 https://graceful-cucurucho-63ef2d.netlify.app => cloud version
 
+login: admin/admin - register also works but sometimes buggy due to render issues.
+Refreshing (F5) also is buggy due to netlify issues.
+
 ## Features
 
 ### Frontend (React)
